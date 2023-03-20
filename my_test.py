@@ -3,6 +3,7 @@ import os
 os.environ["DJANGO_SETTINGS_MODULE"] = 'imdb.settings'
 
 import django
+
 django.setup()
 
 from imdb_app.models import Movie
